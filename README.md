@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="images/logo.png" alt="Tic-Tac-Toe Logo" width="150px">
+  <img src="https://github.com/user-attachments/assets/bf5d32b0-566b-4a17-bfc7-18413056b368" alt="Tic-Tac-Toe Logo" width="150px">
 </p>
+
 
 <h1 align="center" style="font-size: 2.5em;">🎮 Tic-Tac-Toe Game</h1>
 <p align="center" style="font-size: 1.2em;">
@@ -43,15 +44,18 @@ The **Tic-Tac-Toe Game** is a web-based implementation of the classic game, desi
 ## 🏞️ **Snapshots**
 
 ### **Welcome Page**
-![Welcome Page](images/welcome_page.png)
+![Welcome Page](https://github.com/user-attachments/assets/fb1c1efa-7844-4c30-854b-263e7429c537)
+
 The welcome page greets users with an inviting design and a clear "Start Game" button.
 
 ### **Game Board**
-![Game Board](images/game_board.png)
+![Game Board](https://github.com/user-attachments/assets/e025157a-8a2e-44a3-8bc7-12efc46bc5ad)
+
 The game board features a clean grid layout, making it easy to play and navigate.
 
 ### **Game Over Screen**
-![Game Over Screen](images/game_over.png)
+![Game Over Screen](https://github.com/user-attachments/assets/04c4a126-7371-46c7-aaf8-d3feb569c5e8)
+
 The game over screen displays the winner with options to restart or return to the main menu.
 
 ---
