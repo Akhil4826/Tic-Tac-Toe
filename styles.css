@@ -1,0 +1,167 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Light teal background */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    max-width: 400px; /* Set a maximum width for the container */
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow for 3D effect */
+    border-radius: 10px; /* Rounded corners */
+    background: linear-gradient(145deg, #ffffff, #e6e6e6); /* Gradient background */
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333; /* Dark text color for contrast */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Text shadow for depth */
+}
+
+#modeSelection {
+    margin-bottom: 20px;
+    display: flex; /* Use flexbox for button layout */
+    justify-content: center; /* Center buttons */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(145deg, #4682b4, #5a9bd6); /* Gradient background for buttons */
+    color: white; /* White text */
+    margin: 0 10px; /* Spacing between buttons */
+    transition: background 0.3s ease, transform 0.2s ease; /* Transition effects */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
+}
+
+button:hover {
+    background: linear-gradient(145deg, #5a9bd6, #4682b4); /* Reverse gradient on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+#gameContainer {
+    margin-top: 20px;
+}
+
+#status {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Use fractional units for responsive design */
+    gap: 10px; /* Increased gap for better spacing */
+    margin: 20px auto;
+}
+
+.cell {
+    height: 100px;
+    background: linear-gradient(145deg, #87cefa, #6fb3e2); /* Gradient background for cells */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px; /* Rounded corners for cells */
+    transition: background 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+.cell:hover {
+    background: linear-gradient(145deg, #00bfff, #0082d4); /* Lighter blue on hover */
+    transform: scale(1.05); /* Slightly enlarge cell on hover */
+}
+
+.cell:active {
+    background: linear-gradient(145deg, #1e90ff, #007acc); /* Darker blue when clicked */
+}
+
+#winner {
+    background: linear-gradient(145deg, #32cd32, #28a745); /* Green gradient for winning cells */
+    color: white; /* White text for contrast */
+}
+
+#restartBtn {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(145deg, #ff4500, #ff6347); /* Gradient background for restart button */
+    color: white; /* White text */
+    margin-top: 20px;
+    transition: background 0.3s ease; /* Transition effect */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
+}
+
+#restartBtn:hover {
+    background: linear-gradient(145deg, #ff6347, #ff4500); /* Lighter orange on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(145deg, #e0f7fa, #b2ebf2); /* Light teal gradient background */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.welcome-container {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6); /* Gradient background for the container */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); /* Deeper shadow for 3D effect */
+    border-radius: 15px; /* Rounded corners */
+    transition: transform 0.3s; /* Transition for hover effect */
+}
+
+.welcome-container:hover {
+    transform: scale(1.05); /* Scale up on hover for a 3D effect */
+}
+
+h1 {
+    font-size: 3em;
+    color: #333; /* Dark text color for contrast */
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Text shadow for depth */
+}
+
+p {
+    font-size: 1.2em;
+    color: #555; /* Medium text color for readability */
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(145deg, #4682b4, #5a9bd6); /* Gradient background for button */
+    color: white; /* White text */
+    transition: background 0.3s ease, transform 0.2s ease; /* Transition effects */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
+}
+
+button:hover {
+    background: linear-gradient(145deg, #5a9bd6, #4682b4); /* Reverse gradient on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
